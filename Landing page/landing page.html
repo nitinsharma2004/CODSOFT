@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKYVIEW - TOURS & TRAVELS</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body class="overflow-x-hidden">
+    <header>
+        <nav class="flex justify-between">
+            <div class="logo font-bold flex items-center">TRAVELING</div>
+            <div class="menu-btn" tabindex="0" onclick="toggleNavbar()">&#9776;</div>
+            <ul class="navbar flex items-center" id ="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="section1 centered">
+            <div class="w-container">
+                <h1>TRAVELING DESTINATION</h1>
+                <p>THE PERFECT PLACE FOR TOUR & TRAVELS</p>
+                <br>
+                <button class="btn">BOOK NOW</button>
+                <button class="hollow-btn">LEARN MORE</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="section2">
+        <h1 class="text-center t1">What We Do</h1>
+        <p class="t1-2">Whether you dream of exploring ancient wonders, relaxing on pristine beaches, 
+            or navigating vibrant cityscapes, Skyview is your gateway to a world of possibilities.
+        </p>
+        <div class="boxes flex justify-center">
+            <div class="box">
+                <img class="box-image" src="assets/travel.jpg" alt="">
+                <h2>Tours & Travels</h2>
+                <p>Discover new cultures, breathtaking landscapes, and create lasting memories as we curate seamless travel experiences for you. </p>
+                <button class="btn">Explore Now</button>
+            </div>
+            <div class="box">
+                <img class="box-image" src="assets/nature2.jpg" alt="">
+                <h2>Travel Unlimited</h2>
+                <p>Welcome to Travel Unlimited, where the horizons of exploration know no bounds.
+                    Break free from conventional travel constraints and embrace the freedom to roam. </p>
+                <button class="btn">Explore Now</button>
+            </div>
+            <div class="box">
+                <img class="box-image" src="assets/skydiving.jpg" alt="">
+                <h2>Sky Diving</h2>
+                <p> Our skydiving adventures are not just about the jump; they are a celebration of courage, 
+                    a thrilling rush of wind, and the indescribable joy of defying gravity. 
+                   </p>
+                <button class="btn">Explore Now</button>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <div class="footer">
+        <div class="fsection flex justify-center">
+            <div class="flex-container">
+                <div class="column w-col w-col-4">
+                    <h5>ABOUT SKYVIEW</h5>
+                    <p class="para1">Tour and travel hold the promise of unlocking a world of discovery and adventure, and it is within this realm that individuals find the essence of exploration. In the dynamic landscape of tourism, the essence of tour and travel encapsulates the thrill of venturing into new territories, embracing diverse cultures, and creating memories that endure a lifetime.
+
+                        Tour and travel agencies play a pivotal role in shaping these experiences, acting as architects of dreams and facilitators of wanderlust. These entities curate itineraries that cater to the diverse desires of modern travelers, seamlessly blending leisure with cultural immersion and thrill-seeking escapades.
+                        
+                        From the serene landscapes of tranquil beaches to the bustling energy of vibrant cities, tour and travel encapsulate a kaleidoscope of possibilities. These experiences not only provide a respite from the routine but also foster personal growth, broadening horizons and fostering a deeper understanding of the world.
+                        
+                        As technology connects the global community, tour and travel become more accessible, allowing individuals to embark on journeys that transcend geographical boundaries. It is a realm where the spirit of adventure meets the artistry of planning, creating a symphony of experiences that resonate with the soul and leave an indelible mark on the traveler's heart. Tour and travel represent the gateway to a world of endless exploration, where every destination becomes a chapter in the traveler's unique story. 
+                    </p>
+                </div>
+                <div class="column w-col w-col-4">
+                    <h5>USeful Links</h5>
+                    <a href="#" class="footer-link">Phasellus gravido semper nisi</a>
+                    <a href="#" class="footer-link">Suspendisse nisl elit</a>
+                    <a href="#" class="footer-link">Dellentesque habitant morbi</a>
+                    <a href="#" class="footer-link">Etiam sollicitudin ipsum</a>
+                </div>
+                <div class="column w-col w-col-4">
+                    <h5>Social</h5>
+                    <div class="link-wrapper w-clearfix"><img src="assets/twitter.svg" width="20" alt="" class="info-icon">
+                        <a href="#" class="footer-link with-icon">Twitter</a>
+                    </div>
+                    <div class="link-wrapper w-clearfix"><img src="assets/instagram.svg" width="20" alt="" class="info-icon">
+                        <a href="#" class="footer-link with-icon">Instagram</a>
+                    </div>
+                    <div class="link-wrapper w-clearfix"><img src="assets/facebook.svg" width="20" alt="" class="info-icon">
+                        <a href="#" class="footer-link with-icon">Facebook</a>
+                    </div>
+                    <div class="link-wrapper w-clearfix"><img src="assets/pinterest.svg" width="20" alt="" class="info-icon">
+                        <a href="#" class="footer-link with-icon">Pinterest</a>
+                    </div>
+                    <div class="link-wrapper w-clearfix"><img src="assets/google.svg" width="20" alt="" class="info-icon">
+                        <a href="#" class="footer-link with-icon">Google</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; SKYVIEW INC. | All Rights Reserved
+    </footer>
+</body>
+    <script>
+        function toggleNavbar() {
+        var navbar = document.getElementById('navbar');
+        navbar.classList.toggle('show');
+    }
+    </script>
+</html>
