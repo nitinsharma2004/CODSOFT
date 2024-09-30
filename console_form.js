@@ -1,4 +1,5 @@
 // this is login page using html css and js
+// this is responsive login page
 // index.html
 
 <!DOCTYPE html>
